@@ -40,7 +40,6 @@ interface PdfRendererProps {
 }
 
 const PdfRenderer = ({ url }: PdfRendererProps) => {
-  
   const { toast } = useToast()
 
   const [numPages, setNumPages] = useState<number>()
